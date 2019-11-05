@@ -1,0 +1,381 @@
+
+@media only screen and (max-width: 600px) {
+    #mainHeader
+{
+display: flex;
+flex-direction: row;
+background-color:#F9F8F6;
+}
+
+.hero{
+text-align:center;
+
+
+}
+
+h2{
+    font-size:40px;
+    padding:15px;
+    color:$red;
+    font-family:All Round Gothic;
+}
+
+h2 span {
+    font-family:Charcuterie Filigree;
+}
+
+h3{
+    font-size:50px;
+    padding:15px;
+    color:$mainText;
+    font-family:All Round Gothic;
+}
+
+h3 span {
+    color:$red;
+    font-family:Charcuterie Filigree;
+}
+
+h4{
+    font-size:40px;
+    padding:15px;
+    color:$mainText;
+    font-family:Helvetica;
+    font-weight:bold;
+    margin-left:15px;
+}
+
+h4 span {
+    color:$red;
+    font-family:Helvetica;
+    font-weight:bold;
+
+}
+
+#welcome{
+    display:flex;
+    flex-direction:row;
+}
+
+.box {
+flex:  auto; 
+width:100%;
+
+
+}
+
+.pic
+{
+order: -1; 
+flex: auto;
+margin-left:25px;
+}
+
+.button {
+    background-color: $blue; 
+    border: none;
+    color: $offwhite;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family:All Round Gothic;
+    margin-bottom:15px;
+    margin-left:15px;
+    cursor: pointer;
+    min-width:22vw;
+}
+.details2{
+    text-align: left;
+}
+.button2 {background-color: $purple;} 
+.button3 {background-color: $violet;}  
+.button4 {background-color: $red; } 
+.button5 {background-color: $orange;}
+.button6 {background-color: $yellow;} 
+
+.details{
+font-size: 15px;
+font-family:All Round Gothic;
+color: $mainText;
+text-align:justify;
+margin:15px;
+}
+.details p{
+font-size: 15px;
+font-family:All Round Gothic;
+color: $mainText;
+text-align:justify;
+margin:22px;
+}
+.logo
+{
+order: -1; 
+flex: 0 1 220px;
+}
+
+#boxes
+{
+display: flex-auto;
+
+}
+}
+
+@media screen and (max-width: 768px) {
+    
+#mainHeader
+{
+display: flex;
+flex-direction: row;
+background-color:#F9F8F6;
+}
+
+.hero{
+text-align:center;
+
+
+}
+
+h2{
+    font-size:40px;
+    padding:15px;
+    color:$red;
+    font-family:All Round Gothic;
+}
+
+h2 span {
+    font-family:Charcuterie Filigree;
+}
+
+h3{
+    font-size:50px;
+    padding:15px;
+    color:$mainText;
+    font-family:All Round Gothic;
+}
+
+h3 span {
+    color:$red;
+    font-family:Charcuterie Filigree;
+}
+
+h4{
+    font-size:40px;
+    padding:15px;
+    color:$mainText;
+    font-family:Helvetica;
+    font-weight:bold;
+    margin-left:15px;
+}
+
+h4 span {
+    color:$red;
+    font-family:Helvetica;
+    font-weight:bold;
+
+}
+
+#welcome{
+    display:flex;
+    flex-direction:row;
+}
+
+.box {
+flex: 1 1 auto; 
+width:100%;
+
+
+}
+
+.pic
+{
+order: -1; 
+flex: 0 1 50%;
+
+}
+
+.button {
+    background-color: $blue; 
+    border: none;
+    color: $offwhite;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family:All Round Gothic;
+    margin-bottom:15px;
+    margin-left:15px;
+    cursor: pointer;
+    min-width:22vw;
+}
+.details2{
+    text-align: left;
+}
+.button2 {background-color: $purple;} 
+.button3 {background-color: $violet;}  
+.button4 {background-color: $red; } 
+.button5 {background-color: $orange;}
+.button6 {background-color: $yellow;} 
+
+.details{
+font-size: 15px;
+font-family:All Round Gothic;
+color: $mainText;
+text-align:justify;
+margin:15px;
+}
+.details p{
+font-size: 15px;
+font-family:All Round Gothic;
+color: $mainText;
+text-align:justify;
+margin:22px;
+}
+.logo
+{
+order: -1; 
+flex: 0 1 220px;
+}
+
+#boxes
+{
+display: flex-auto;
+
+}
+
+
+    
+}
+
+//desktop
+@media (min-width: 992px) {
+    
+
+        #mainHeader
+        {
+        display: flex;
+        flex-direction: row;
+        background-color:#F9F8F6;
+        }
+    
+        .hero{
+        text-align:center;
+
+    
+        }
+
+        h2{
+            font-size:40px;
+            padding:15px;
+            color:$red;
+            font-family:All Round Gothic;
+        }
+
+        h2 span {
+            font-family:Charcuterie Filigree;
+        }
+
+        h3{
+            font-size:50px;
+            padding:15px;
+            color:$mainText;
+            font-family:All Round Gothic;
+        }
+
+        h3 span {
+            color:$red;
+            font-family:Charcuterie Filigree;
+        }
+
+        h4{
+            font-size:40px;
+            padding:15px;
+            color:$mainText;
+            font-family:Helvetica;
+            font-weight:bold;
+            margin-left:15px;
+        }
+
+        h4 span {
+            color:$red;
+            font-family:Helvetica;
+            font-weight:bold;
+
+        }
+    
+        #welcome{
+            display:flex;
+            flex-direction:row;
+        }
+    
+        .box {
+        flex: 1 1 auto; 
+        width:100%;
+        
+    
+        }
+    
+        .pic
+        {
+        order: -1; 
+        flex: 0 1 50%;
+        
+        }
+
+        .button {
+            background-color: $blue; 
+            border: none;
+            color: $offwhite;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 25px;
+            font-family:All Round Gothic;
+            margin-bottom:30px;
+            margin-left:25px;
+            cursor: pointer;
+            min-width:22vw;
+        }
+        .details2{
+            text-align: left;
+        }
+        .button2 {background-color: $purple;} 
+        .button3 {background-color: $violet;}  
+        .button4 {background-color: $red; } 
+        .button5 {background-color: $orange;}
+        .button6 {background-color: $yellow;} 
+
+    .details{
+        font-size: 25px;
+        font-family:All Round Gothic;
+        color: $mainText;
+        text-align:justify;
+        margin:25px;
+    }
+    .details p{
+        font-size: 25px;
+        font-family:All Round Gothic;
+        color: $mainText;
+        text-align:justify;
+        margin:45px;
+    }
+    .logo
+        {
+        order: -1; 
+        flex: 0 1 220px;
+        }
+    
+        #boxes
+        {
+        display: flex-auto;
+        
+        }
+    
+    
+    
+    
+    
+}
